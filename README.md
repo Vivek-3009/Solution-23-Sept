@@ -15,3 +15,5 @@ In the solution
 </br>
 Image of midday : -
 ![Middday](https://github.com/Vivek-3009/Solution-23-Sept/assets/74505677/54f607db-3157-442a-9314-9997eddd6357)
+<h3>Invalid time</h3>
+<img src="Images of some test/Invalid time.png" alt="invalid time" title="Optional title">
