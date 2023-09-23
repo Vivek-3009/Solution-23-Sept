@@ -1,19 +1,18 @@
 package com.example.demo;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DemoApplicationTests {
 
-	@Autowired
-	TimeToWords timeToWords;
+	public final TimeToWords timeToWords= new TimeToWords(); 
+
     @Test
     public void testConvertTimeToWords() {
 
         // test case to check time
 
-        assertEquals("It's three twenty", timeToWords.checkTime("3:25"));
+        assertEquals("It's three twenty five", timeToWords.checkTime("3:25"));
 
         // test to check Midday
 
