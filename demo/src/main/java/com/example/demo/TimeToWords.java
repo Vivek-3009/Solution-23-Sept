@@ -19,6 +19,12 @@ public class TimeToWords {
     public String checkTime(String time){
         try {
 
+            // chceking for format
+            
+            if (!time.matches("\\d{2}:\\d{2}")) {
+                return "Invalid time format. Please enter time in HH:MM format.";
+            }
+
             //split the String from : int parts
 
             String[] part = time.split(":");
